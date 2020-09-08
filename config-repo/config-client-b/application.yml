@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-client-b
+
+server:
+  port: 8002
+  
+logging:
+  file:
+    name: /var/tmp/logs/config-client-b/config-client-b
+  level:
+    root: INFO
+    poc.springcloud: DEBUG
