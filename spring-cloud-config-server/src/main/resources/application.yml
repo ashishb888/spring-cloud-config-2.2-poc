@@ -5,8 +5,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ashishb888/spring-cloud-config-2.2-poc
-          search-paths:          - 'config-repo/{application}'
+          uri: https://github.com/ashishb888/spring-cloud-config-repos
+          search-paths:          - '{application}'
+
+#          uri: https://github.com/ashishb888/spring-cloud-config-2.2-poc
+#          search-paths:
+#          - 'config-repo/{application}'
+          
           
 server:
   port: 9000
