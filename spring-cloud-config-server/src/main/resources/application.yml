@@ -5,7 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ashishb888/spring-cloud-config-2.2-poc/config-repo
+          uri: https://github.com/ashishb888/spring-cloud-config-2.2-poc
+          search-paths:          - config-repo
+          #clone-on-start: true
           
 server:
   port: 9000
