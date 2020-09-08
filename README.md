@@ -21,5 +21,7 @@ Spring cloud Hoxton.SR8
 ###### Run
 
 ` nohup $JAVA_HOME/bin/java -jar spring-cloud-config-server-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 & `
+
 ` nohup $JAVA_HOME/bin/java -jar config-client-b-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 & `
+
 ` nohup $JAVA_HOME/bin/java -jar config-client-a-0.0.1-SNAPSHOT.jar > /dev/null 2>&1 & `
