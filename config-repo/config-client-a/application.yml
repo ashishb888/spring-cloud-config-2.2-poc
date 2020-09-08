@@ -11,3 +11,8 @@ logging:
   level:
     root: INFO
     poc.springcloud: DEBUG
+
+app:
+  kv:
+    k1: v1
+    k2: v2    
